@@ -20,33 +20,24 @@
 
 
 @section('body')
-<!--page header section start-->
-<section class="page-header position-relative overflow-hidden ptb-120 bg-dark" style="background: url('guest/assets/img/page-header-bg.svg')no-repeat center bottom">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8 col-md-12">
-                <div class="section-heading text-center">
-                    <h1 class="display-5 fw-bold">Our Latest News and Blogs</h1>
-                    <p class="lead mb-0"><i>Withholding information is the essence of tyranny. </i></p>
-                </div>
-            </div>
-        </div>
-        <div class="row justify-content-center text-center">
-            <div class="col-xl-8">
-                @foreach ($blogs as $cat)
-                <a href="javascript:;" class="btn btn-soft-primary btn-pill btn-sm m-2">{{ $cat->cat->category }}</a>
 
-                @endforeach
-            </div>
-        </div>
-        <div class="bg-circle rounded-circle circle-shape-3 position-absolute bg-dark-light right-5"></div>
-    </div>
-</section>
-<!--page header section end-->
 
 <!--blog section start-->
 <section class="masonary-blog-section ptb-120">
     <div class="container">
+        <div class="row justify-content-center align-content-center">
+            <div class="col-md-10 col-lg-8">
+                <div class="section-heading text-center mb-4">
+                    <h5 class="h6 text-primary">Our Blogs</h5>
+                    <h2>Acarty Blogs</h2>
+                    <div class="row">
+                    @foreach ($blogs as $blog )
+                        <p>{{ $blog->cat->category }}</p>
+                    @endforeach
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <div class="row">
             @foreach ($blogs as $blog)

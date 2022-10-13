@@ -64,9 +64,9 @@
                                     <div class="footer-single-col">
                                         <h3>Links</h3>
                                         <ul class="list-unstyled footer-nav-list mb-lg-0">
-                                            <li><a href="#" class="text-decoration-none">Work with us</a></li>
-                                            <li><a href="#" class="text-decoration-none">Privacy Policy</a></li>
-                                            <li><a href="#" class="text-decoration-none">About Us</a></li>
+                                            <li><a href="{{ route('register', ['user' => 'developer']) }}" class="text-decoration-none">Work with us</a></li>
+                                            <li><a href="{{ route('policy.page') }}" class="text-decoration-none">Privacy Policy</a></li>
+                                            <li><a href="{{ route('terms.page') }}" class="text-decoration-none">Terms & Conditions</a></li>
 
                                         </ul>
                                     </div>

@@ -20,24 +20,20 @@
 
 
 @section('body')
-<!--page header section start-->
-<section class="page-header position-relative overflow-hidden ptb-120 bg-dark" style="background: url('{{ asset("guest/assets/img/page-header-bg.svg") }}')no-repeat bottom left">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-md-12">
-                <h1 class="display-5 fw-bold">We are Development Experts</h1>
-                <p class="lead">Seamlessly actualize client-based users after out-of-the-box value. Globally embrace
-                    strategic data through frictionless expertise.</p>
-            </div>
-        </div>
-        <div class="bg-circle rounded-circle circle-shape-3 position-absolute bg-dark-light right-5"></div>
-    </div>
-</section>
-<!--page header section end-->
 
 <!--features grid section start-->
 <section class="feature-section bg-light ptb-120">
     <div class="container">
+        <div class="row justify-content-center align-content-center">
+            <div class="col-md-10 col-lg-8">
+                <div class="section-heading text-center mb-4">
+                    <h5 class="h6 text-primary">services</h5>
+                    <h2>We are Experts</h2>
+                    <p class="lead">Seamlessly actualize client-based users after out-of-the-box value. Globally embrace
+                        strategic data through frictionless expertise.</p>
+                </div>
+            </div>
+        </div>
         <div class="row">
             <div class="col-12">
                 <div class="feature-grid">

@@ -60,6 +60,7 @@
                                                         @csrf
                                                     <label for="exampleFormControlInput1" class="required form-label">Create a new role</label>
                                                     <input type="text" name="name" class="form-control form-control-solid" placeholder="Role Name" />
+                                                    <input type="hidden" name="guard" value="web">
 
                                                     <strong>Permission:</strong>
             <br/>

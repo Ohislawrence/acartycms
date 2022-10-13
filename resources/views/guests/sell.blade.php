@@ -60,7 +60,7 @@
                             </li>
                         </ul>
                         <div class="action-btns mt-5">
-                            <a href="{{ route('register', ['role'=> 'seller']) }}" class="btn app-two-btn">Learn About More</a>
+                            <a href="{{ route('register', ['user' => 'seller']) }}" class="btn app-two-btn">Learn About More</a>
                         </div>
                     </div>
                 </div>
@@ -144,7 +144,7 @@
                         <p>Sign up, upload your eProducts and share your product link everywhere.</p>
                     </div>
                     <div class="form-block-banner mw-60 m-auto mt-5" data-aos="fade-up" data-aos-delay="50">
-                        <a href="contact-us.html" class="btn btn-primary">Start Now</a>
+                        <a href="{{ route('register', ['user' => 'seller']) }}" class="btn btn-primary">Start Now</a>
 
                     </div>
                     <ul class="nav justify-content-center subscribe-feature-list mt-4" data-aos="fade-up" data-aos-delay="100">

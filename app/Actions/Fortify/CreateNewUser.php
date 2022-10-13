@@ -21,6 +21,7 @@ class CreateNewUser implements CreatesNewUsers
      */
     public function create(array $input )
     {
+
         Validator::make($input, [
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
@@ -28,14 +29,34 @@ class CreateNewUser implements CreatesNewUsers
             'terms' => Jetstream::hasTermsAndPrivacyPolicyFeature() ? ['accepted', 'required'] : '',
         ])->validate();
 
-        $user = User::create([
-            'name' => $input['name'],
-            'email' => $input['email'],
-            'password' => Hash::make($input['password']),
-        ]);
+        $userrole = $input['userrole'] ;
 
 
+        if (Role::where('name', $userrole)->exists())
+        {
+            if($userrole == 'Super-Admin' || $userrole == 'admin')
+            {
+                return redirect()->back()->with('message', 'Not allowed');
+            }
+            else
+            {
+                $user = User::create([
+                    'name' => $input['name'],
+                    'email' => $input['email'],
+                    'password' => Hash::make($input['password']),
+                ]);
 
-        return $user;
+                $role = Role::where('name', $userrole)->first();
+                $user->assignRole($role);
+
+                return $user;
+            }
+        }
+        else
+        {
+            return redirect()->back()->with('message', 'Not allowed');
+        }
+
+
     }
 }

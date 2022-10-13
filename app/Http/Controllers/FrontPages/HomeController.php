@@ -122,4 +122,16 @@ class HomeController extends Controller
         //views($course)->record();
         return view('guests.singlecourse', compact('course'));
     }
+
+    public function policy()
+    {
+
+        return view('policy');
+    }
+
+    public function terms()
+    {
+
+        return view('terms');
+    }
 }

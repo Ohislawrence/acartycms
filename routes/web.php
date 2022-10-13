@@ -13,7 +13,7 @@ use App\Http\Controllers\CoursecatController;
 
 
 
-
+use Illuminate\Support\Facades\Auth;
 use App\Models\User;
 use Spatie\Permission\Models\Role;
 use Spatie\Permission\Models\Permission;
@@ -30,7 +30,7 @@ use Spatie\Permission\Models\Permission;
 */
 
 
-//home pages
+//frontpages
 Route::get('/', [FrontPages\HomeController::class, 'index'])->name('home.page');
 Route::get('/services', [FrontPages\HomeController::class, 'services'])->name('service.page');
 Route::get('/services/{slug}', [FrontPages\HomeController::class, 'servicesdetails'])->name('servicedetails.page');
@@ -43,6 +43,9 @@ Route::get('/sell', [FrontPages\HomeController::class, 'sell'])->name('sell.page
 Route::get('/servicerequest', [FrontPages\HomeController::class, 'servicerequest'])->name('servicerequest.page');
 Route::post('/servicerequest/post', [FrontPages\HomeController::class, 'servicerequestpost'])->name('servicerequestpost.page');
 Route::get('/service/thankyou', [FrontPages\HomeController::class, 'thankyou'])->name('thankyou.page');
+Route::get('/privacy-policy', [FrontPages\HomeController::class, 'policy'])->name('policy.page');
+Route::get('/terms-and-conditions', [FrontPages\HomeController::class, 'terms'])->name('terms.page');
+
 
 
 

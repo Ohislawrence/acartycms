@@ -45,7 +45,7 @@
                                             </ul>
                                         </div>
                                         <blockquote>
-                                            <h5>The Best Template You Got to Have it!</h5>
+                                            <h5>The Best Template You Got to Have it!{{ request()->user }}</h5>
                                             Globally network long-term high-impact schemas vis-a-vis distinctive
                                             e-commerce
                                             cross-media infrastructures rather than ethical sticky alignments rather
@@ -169,7 +169,7 @@
 
         <form method="POST" action="{{ route('register') }}" class="mt-5 register-form">
             @csrf
-
+            <input type="hidden" name="userrole" value="{{ request()->user }}">
             <div class="row">
                 <div class="col-sm-6">
                     <label for="name" class="mb-1">Name <span class="text-danger">*</span></label>
