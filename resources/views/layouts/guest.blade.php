@@ -9,7 +9,7 @@
         <!--meta-->
         <meta name="description" content="We help you build ecommerce solutions that will put you on the map and make you good profit.">
         <meta name="author" content="Acarty Web Services">
-        <link rel="icon" href="{{ asset('guest/assets/img/favicon.png') }}" type="image/png" sizes="16x16">
+        <link rel="icon" href="{{ asset('fav2.png') }}" type="image/png" sizes="16x16">
 
         <!-- Fonts -->
         <link rel="stylesheet" href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap">

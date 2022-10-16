@@ -28,9 +28,8 @@
             <div class="col-md-10 col-lg-8">
                 <div class="section-heading text-center mb-4">
                     <h5 class="h6 text-primary">services</h5>
-                    <h2>We are Experts</h2>
-                    <p class="lead">Seamlessly actualize client-based users after out-of-the-box value. Globally embrace
-                        strategic data through frictionless expertise.</p>
+                    <h2>We are the ecommerce Experts</h2>
+                    <p class="lead">Provide the details, we'll combine our experience with your ideas to give you the best service ever.</p>
                 </div>
             </div>
         </div>

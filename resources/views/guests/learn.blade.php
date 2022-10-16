@@ -51,6 +51,7 @@
                     <div class="article-content p-4">
                         <div class="article-category mb-4 d-block">
                             <a href="javascript:;" class="d-inline-block text-dark badge bg-warning-soft">{{ $course->coursecat->title }}</a>
+                            <a href="javascript:;" class="d-inline-block text-dark badge bg-warning-soft">$ {{ $course->cost }}</a>
                         </div>
                         <a href="{{ route('learnsingle.page', ['slug'=> $course->slug]) }}">
                             <h2 class="h5 article-title limit-2-line-text">{{ $course->title }}</h2>
@@ -60,11 +61,11 @@
                         <a href="javascript:;">
                             <div class="d-flex align-items-center pt-4">
                                 <div class="avatar">
-                                    <img src="" alt="avatar" width="40" class="img-fluid rounded-circle me-3">
+                                    <img src="{{ asset('fav2.png') }}" alt="avatar" width="40" class="img-fluid rounded-circle me-3">
                                 </div>
                                 <div class="avatar-info">
-                                    <h6 class="mb-0 avatar-name">{{ $course->user->name }}</h6>
-                                    <span class="small fw-medium text-muted">{{$course->created_at->format("M d,Y")}}</span>
+                                    <h6 class="mb-0 avatar-name">Acarty</h6>
+                                    <span class="small fw-medium text-muted">{{ $course->user->name }}</span>
                                 </div>
                             </div>
                         </a>

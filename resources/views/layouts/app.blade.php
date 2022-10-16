@@ -6,7 +6,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
         <title>@yield('tittletop') - {{ config('app.name') }}</title>
-        <link rel="icon" type="image/x-icon" href="{{ asset('app/assets/img/favicon.ico') }}"/>
+        <link rel="icon" type="image/x-icon" href="{{ asset('fav2.png') }}"/>
 		<!--begin::Fonts-->
 		<link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,600,700&display=swap" rel="stylesheet">
 		<!--end::Fonts-->

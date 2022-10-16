@@ -9,8 +9,8 @@
                         <div class="col-md-8 col-lg-4 mb-md-4 mb-lg-0">
                             <div class="footer-single-col">
                                 <div class="footer-single-col mb-4">
-                                    <img src="{{ asset('acartylogo.png') }}" width="113px" alt="logo" class="img-fluid logo-white">
-                                    <img src="{{ asset('acartylogo.png') }}" width="113px" alt="logo" class="img-fluid logo-color">
+                                    <img src="{{ asset('acarty_logo2.png') }}" width="113px" alt="logo" class="img-fluid logo-white">
+                                    <img src="{{ asset('acarty_logo2.png') }}" width="113px" alt="logo" class="img-fluid logo-color">
                                 </div>
                                 <p>Our latest news, articles, and resources, we will sent to
                                     your inbox weekly.</p>

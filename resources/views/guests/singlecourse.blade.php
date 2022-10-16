@@ -29,7 +29,7 @@
                 <div class="company-info-wrap">
                     <div class="company-logo p-4 bg-white shadow rounded-custom me-4 mt-2">
                         <div class="logo">
-                            <img src="{{ asset('guest/assets/img/company/2.png') }}" alt="company logo" class="img-fluid">
+                            <img src="{{ asset('fav2.png') }}" alt="company logo" class="img-fluid">
                         </div>
                     </div>
                     <div class="company-overview">
@@ -198,8 +198,8 @@
                         <li>
                             <i class="far fa-history text-primary"></i>
                             <div class="overview-item">
-                                <h6 class="mb-0">Rate:</h6>
-                                <span>$15 - $25 / hour</span>
+                                <h6 class="mb-0">Duration</h6>
+                                <span>25 hour</span>
                             </div>
                         </li>
                         <li>

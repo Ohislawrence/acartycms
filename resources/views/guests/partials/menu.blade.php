@@ -2,8 +2,8 @@
     <nav class="navbar navbar-expand-xl navbar-light sticky-header">
         <div class="container d-flex align-items-center justify-content-lg-between position-relative">
             <a href="index.html" class="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none">
-                <img src="{{ asset('acartylogo.png') }}" alt="logo" width="113px" class="img-fluid logo-white" />
-                <img src="{{ asset('acartylogo.png') }}" width="113px" alt="logo" class="img-fluid logo-color" />
+                <img src="{{ asset('acarty_logo2.png') }}" alt="acartylogo" width="113px" class="img-fluid logo-white" />
+                <img src="{{ asset('acarty_logo2.png') }}" width="113px" alt="acartylogo" class="img-fluid logo-color" />
             </a>
 
             <a class="navbar-toggler position-absolute right-0 border-0" href="#offcanvasWithBackdrop" role="button">
@@ -45,7 +45,7 @@
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasWithBackdrop">
         <div class="offcanvas-header d-flex align-items-center mt-4">
             <a href="index.html" class="d-flex align-items-center mb-md-0 text-decoration-none">
-                <img src="{{ asset('guest/assets/img/logo-color.png') }}" alt="logo" class="img-fluid ps-2" />
+                <img src="{{ asset('logo.png') }}" alt="logo" class="img-fluid ps-2" width="113"/>
             </a>
             <button type="button" class="close-btn text-danger" data-bs-dismiss="offcanvas" aria-label="Close">
                 <i class="far fa-close"></i>
@@ -58,14 +58,19 @@
 
                 <li><a href="{{ route('service.page') }}" class="nav-link">Services</a></li>
 
-                <li><a href="{{ route('portfolio.page') }}" class="nav-link">Portfolio</a></li>
-
                 <li><a href="{{ route('blogs.page') }}" class="nav-link">Blogs</a></li>
+
+                <li><a href="{{ route('learn.page') }}" class="nav-link">Learn</a></li>
+
+                <li><a href="{{ route('sell.page') }}" class="nav-link">Sell with Acarty</a></li>
 
             </ul>
             <div class="action-btns mt-4 ps-3">
-                <a href="login.html" class="btn btn-outline-primary me-2">Sign In</a>
-                <a href="request-demo.html" class="btn btn-primary">Get Started</a>
+                @auth
+                <a href="{{ route('login') }}" class="btn btn-primary">Dashboard</a>
+                @else
+                <a href="{{ route('login') }}" class="btn btn-primary">Sign In</a>
+                @endauth
             </div>
         </div>
     </div>

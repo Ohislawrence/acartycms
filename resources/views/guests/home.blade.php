@@ -443,7 +443,7 @@
                         <a href="javascript:;">
                             <div class="d-flex align-items-center pt-4">
                                 <div class="avatar">
-                                    <img src="assets/img/testimonial/6.jpg" alt="avatar" width="40" class="img-fluid rounded-circle me-3">
+                                    <img src="{{ asset('fav2.png') }}" alt="avatar" width="40" class="img-fluid rounded-circle me-3">
                                 </div>
                                 <div class="avatar-info">
                                     <h6 class="mb-0 avatar-name">{{ $blog->user->name }}</h6>
@@ -534,7 +534,7 @@
                         <a href="javascript:;">
                             <div class="d-flex align-items-center pt-4">
                                 <div class="avatar">
-                                    <img src="guest/assets/img/testimonial/6.jpg" alt="avatar" width="40" class="img-fluid rounded-circle me-3">
+                                    <img src="{{ asset('fav2.png') }}" alt="avatar" width="40" class="img-fluid rounded-circle me-3">
                                 </div>
                                 <div class="avatar-info">
                                     <h6 class="mb-0 avatar-name">{{ $course->user->name }}</h6>
