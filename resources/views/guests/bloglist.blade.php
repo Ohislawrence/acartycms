@@ -1,9 +1,9 @@
 @extends('layouts.guest')
 
 @section('tittletop', 'Our Blogs')
-@section('tittle', 'Get rich knowlegde that will help you in your business.')
-@section('description', 'Home')
-@section('image', 'Home')
+@section('tittle', 'All Blogs')
+@section('description', 'Get rich knowlegde that will help you in your business.')
+@section('image', 'https://acarty.com/guest/assets/img/screen/mac-screen.png')
 
 
 @section('header')

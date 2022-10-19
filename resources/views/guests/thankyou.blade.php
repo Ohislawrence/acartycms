@@ -2,8 +2,8 @@
 
 @section('tittletop', 'Thank you')
 @section('tittle', 'Your request has been received')
-@section('description', 'Home')
-@section('image', 'Home')
+@section('description', 'We will contact you as soon as posible.')
+@section('image', )
 
 
 @section('header')

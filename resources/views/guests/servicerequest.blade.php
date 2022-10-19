@@ -1,9 +1,9 @@
 @extends('layouts.guest')
 
 @section('tittletop', 'We will turn your ideas to profit!')
-@section('tittle', 'Fill the service request form and we will get back to you ASAP.')
+@section('tittle', 'We will turn your ideas to profit!')
 @section('description', 'Fill the service request form and we will get back to you ASAP.')
-@section('image', 'Home')
+@section('image', 'https://acarty.com/guest/assets/img/acarty-home.png')
 
 
 @section('header')

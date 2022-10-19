@@ -1,9 +1,9 @@
 @extends('layouts.guest')
 
-@section('tittletop', 'Home')
-@section('tittle', 'Home')
-@section('description', 'Home')
-@section('image', 'Home')
+@section('tittletop', 'Welcome')
+@section('tittle', 'A 360 Ecommerce Solution for your business')
+@section('description', 'We help you get your business up and running with our world-class eCommerce services from building your web store, teaching you and even give you a free platform to sell your eProducts.')
+@section('image', 'https://acarty.com/guest/assets/img/screen/mac-screen.png')
 
 
 @section('header')

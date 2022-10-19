@@ -1,9 +1,9 @@
 @extends('layouts.guest')
 
-@section('tittletop', 'What we offer')
-@section('tittle', 'We are here you help you get to your goal.')
-@section('description', 'Home')
-@section('image', 'Home')
+@section('tittletop', 'Our services')
+@section('tittle', 'We are here you help you achieve your goals.')
+@section('description', 'We are the ecommerce Experts')
+@section('image', 'https://acarty.com/guest/assets/img/acarty-home.png')
 
 
 @section('header')
@@ -29,7 +29,7 @@
                 <div class="section-heading text-center mb-4">
                     <h5 class="h6 text-primary">services</h5>
                     <h2>We are the ecommerce Experts</h2>
-                    <p class="lead">Provide the details, we'll combine our experience with your ideas to give you the best service ever.</p>
+                    <p class="lead"></p>
                 </div>
             </div>
         </div>

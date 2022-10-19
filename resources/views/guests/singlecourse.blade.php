@@ -3,7 +3,7 @@
 @section('tittletop', $course->title )
 @section('tittle', $course->title)
 @section('description', $course->desc)
-@section('image', 'Home')
+@section('image', asset('courseimages/'.$blog->banner)
 
 
 @section('header')

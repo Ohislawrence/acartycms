@@ -1,9 +1,9 @@
 @extends('layouts.guest')
 
-@section('tittletop', 'Sell eProduct')
-@section('tittle', 'Sell your eProducts on Acarty for FREE')
-@section('description', 'Home')
-@section('image', 'Home')
+@section('tittletop', 'Sell your eProduct')
+@section('tittle', 'Join Our Maerkerplace')
+@section('description', 'Sell your eProducts on Acarty for FREE')
+@section('image', 'https://acarty.com/guest/assets/img/app-two-feature-phone-with-shape.png')
 
 
 @section('header')
