@@ -2,7 +2,7 @@
 
 @section('tittletop', 'Welcome')
 @section('tittle', 'A 360 Ecommerce Solution for your business')
-@section('description', 'We help you get your business up and running with our world-class eCommerce services from building your web store, teaching you and even give you a free platform to sell your eProducts.')
+@section('description', 'We help businesses and individuals get their business up and running with our world-class eCommerce services from building your web store, to teaching and offering a free platform that helps sell digital products.')
 @section('image', 'https://acarty.com/guest/assets/img/screen/mac-screen.png')
 
 
@@ -27,7 +27,7 @@
             <div class="col-xl-5 col-lg-5">
                 <div class="hero-content-wrap text-center text-xl-start text-lg-start" data-aos="fade-right">
                     <h1 class="fw-bold display-5">A 360 Ecommerce Solution for your business</h1>
-                    <p class="lead">We help you get your business up and running with our world-class eCommerce services from building your web store, teaching you and even give you a free platform to sell your eProducts.</p>
+                    <p class="lead">We help businesses and individuals get their business up and running with our world-class eCommerce services from building your web store, to teaching and offering a free platform that helps sell digital products..</p>
                     <div class="hero-subscribe-form-wrap pt-4 position-relative m-auto m-xl-0 d-none d-md-block d-lg-block d-xl-block">
                         <a href="{{ route('servicerequest.page') }}" class="btn btn-primary me-3">Start Selling Online Now <i class="fas fa-arrow-right"></i></a>
                         <ul class="nav subscribe-feature-list mt-3">
